@@ -1,7 +1,18 @@
 {
   "routes": [
     {
-      "route": "/index.js"
+      "route": "/index.js",
+      "methods": [
+        "get",
+        "head",
+        "connect",
+        "options",
+        "trace",
+        "patch",
+        "delete",
+        "put",
+        "post"
+      ]
     }
   ]
 }
